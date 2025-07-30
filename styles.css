@@ -98,6 +98,24 @@ h1 {
     z-index: 1000;
 }
 
+.papyrus {
+  width: 130px;
+  height: auto;
+  left: 10%;
+  bottom: 20%;
+  rotate: 0;
+
+}
+
+
+.sans {
+  width: 100px;
+  height: aut0;
+  bottom: 0;
+  left: 31%;
+  rotate: 0;
+}
+
 
 .frisk {
     width: 70px;
