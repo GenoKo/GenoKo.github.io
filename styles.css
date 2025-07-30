@@ -9,7 +9,7 @@ body {
     font-family: 'Press Start 2P', sans-serif;
     font-weight: 300;
     color: white;
-    background-image: url("textures/background.png");
+    background-image: url("Textures/background.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -53,7 +53,7 @@ h1 {
 
 /*Makeshift barrier effect*/
 .layer-1 {
-    background-image: linear-gradient(to bottom,transparent 50%,rgba(0, 0, 0,0.85) 70%, #020202), url("textures/ebott.png");
+    background-image: linear-gradient(to bottom,transparent 50%,rgba(0, 0, 0,0.85) 70%, #020202), url("Textures/ebott.png");
     z-index: 70;
 }
 
