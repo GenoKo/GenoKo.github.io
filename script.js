@@ -10,6 +10,12 @@ function parallaxScroll(){
    var scrolled = $(window).scrollTop(); 
     $('.frisk').css('top',(800-(scrolled*.9))+'px');
 
+    $('.papyrus').css('top',(600-(scrolled*.4))+'px');
+    $('.sans').css('top',(1000-(scrolled*.6))+'px');
+
+    $('.papyrus').css('rotate',(0+(scrolled*.4))+'deg');
+    $('.sans').css('rotate',(0-(scrolled*.6))+'deg');
+
     $('.layer-1').css('top',(0-(scrolled*.25))+'px');
     $('.layer-2').css('top',(0-(scrolled*.5))+'px');
     $('.layer-3').css('top',(0-(scrolled*.6))+'px');
