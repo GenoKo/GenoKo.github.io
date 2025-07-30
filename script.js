@@ -21,27 +21,17 @@ function parallaxScroll(){
 }
 
 
-//testing playing audio files lol
-$(document).ready(function() {
-    var audio = document.getElementById('background-music');
+
+$(document).one('click scroll keydown', function() {
     var played = false;
+    
+    var audio = document.getElementById('background-music');
     audio.volume = 0.1;
 
-    if (!played){
-    // Try to play immediately
-        audio.play().catch(function(error) {
-        console.log('Autoplay prevented. Playing on first user interaction.');
+    if(!played){
 
-            // Play after first user interaction
-            $(document).one('click scroll keydown', function() {
-                audio.play();
-                
-            })
-        })
-
+        audio.play();
         played = true;
     }
-
-
 
 })
